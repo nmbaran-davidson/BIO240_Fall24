@@ -1,6 +1,6 @@
 ---
 title: "Intro_to_R"
-author: "NMBaran","DMThurtle-Schmidt, SMWadgymar, KGSmith"
+author: "NMBaran, DMThurtle-Schmidt, SMWadgymar, KGSmith"
 date: '2024-08-12'
 output:
   pdf_document: default
