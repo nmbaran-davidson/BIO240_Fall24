@@ -1,7 +1,7 @@
 ---
 title: "Intro_to_Data_Viz"
-author: "SMWadgymar"
-date: '2022-08-15'
+author: "SMWadgymar, NMBaran"
+date: '2024-09-03'
 output: html_document
 ---
 
@@ -17,8 +17,7 @@ This lab provides a walkthrough to conducting an exploratory analysis that not o
 1) Load the data from a package associated with our textbook.  The library function below will load the dataset from a package that we have already installed and the data function loads the data into your workspace.  You should see dds.discr show up in the environment tab on the top left panel.
 
 ```{r}
-library(oibiostat)
-data("dds.discr")
+source("https://www.openintro.org/data/R/dds.discr.R")
 ```
 
 
