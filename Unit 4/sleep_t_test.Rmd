@@ -9,7 +9,7 @@ A 2016 study from the CDC reported that more than a third of American aduts are 
 
 The dataset nhanes.samp.adult contains sleep information for 135 participants ages 21 years of older. The variable SleepHrsNight contains the self-reported number of hours a participant usually gets at night on weekdays or workdays.
 
-First, install the R package where a bunch of datasets associated with the textbook are available. Run the following code. Follow any prompts to keep the install proceeding. Note that this only needs to be installed once *ever* in your JupyterHub, not everytime you run your code.
+First, install the R package where a bunch of datasets associated with the textbook are available. Run the following code. Follow any prompts to keep the install proceeding. Note that this only needs to be installed once *ever* in your JupyterHub, not every time you run your code.
 
 ```{r}
 install.packages("devtools")
@@ -18,7 +18,7 @@ devtools::install_github("OI-Biostat/oi_biostat_data")
 
 Now load the data:
 ```{r}
-library(oibiostat) #the libary function needs to be included any time you load a package into your workspace
+library(oibiostat) #the library function needs to be included any time you load a package into your workspace
 data("nhanes.samp.adult")
 ```
 
@@ -60,7 +60,7 @@ A:
 ```
 
 
-(d)Calculate the p-value in R. Although there is a large number of samples, use the t-distribution to calculate the the p-value to account for the fact that the population sd is unknown.
+(d) Calculate the p-value in R. Although there is a large number of samples, use the t-distribution to calculate the the p-value to account for the fact that the population sd is unknown.
 
 ```{r}
 
